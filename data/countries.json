@@ -1,0 +1,4 @@
+[
+  { "code": "IN", "name": "India", "dialCode": "+91", "currency": "INR" },
+  { "code": "US", "name": "United States", "dialCode": "+1", "currency": "USD" }
+]

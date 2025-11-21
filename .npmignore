@@ -1,0 +1,6 @@
+src
+data
+test
+tsconfig.json
+.gitignore
+.npmignore

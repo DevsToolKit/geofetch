@@ -1,0 +1,48 @@
+{
+  "name": "geofetch",
+  "version": "0.1.0",
+  "description": "Lightweight library to fetch countries, states and districts from GitHub-hosted JSON.",
+  "homepage": "https://github.com/DevsToolKit/geofetch#readme",
+  "bugs": {
+    "url": "https://github.com/DevsToolKit/geofetch/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevsToolKit/geofetch.git"
+  },
+  "license": "ISC",
+  "author": "Piyush (@piyushPb)",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "geo",
+    "countries",
+    "states",
+    "districts",
+    "location",
+    "geodata",
+    "api",
+    "country data",
+    "world data"
+  ],
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
